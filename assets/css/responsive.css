@@ -104,6 +104,11 @@
         padding-bottom: 60px !important;
     }
 
+    .section__product-content {
+        position: relative;
+        top: 0;
+    }
+
     .container__about-content {
         position: relative;
         width: 85%;
@@ -111,8 +116,7 @@
     }
 
     .container__franchise {
-        width: calc(100% - 30px) !important;
-        max-width: 708px;
+        width: 100%;
     }
 
     .container__franchise-left {
@@ -183,6 +187,10 @@
         padding: 0 30px;
     }
 
+    .container__franchise {
+        max-width: 708px;
+    }
+
     .container__news-content {
         flex-wrap: wrap;
         padding: 0 39px !important;
@@ -212,6 +220,10 @@
         padding: 0 15px !important;
     }
 
+    .container__franchise {
+        max-width: 384px;
+    }
+
     .container__franchise-description {
         max-width: 315px !important;
     }
@@ -222,7 +234,8 @@
     }
 
     .footer__main {
-        max-width: 414px !important;
+        width: 100%;
+        max-width: 375px !important;
     }
 
     .footer__main-img {
