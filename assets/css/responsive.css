@@ -208,7 +208,7 @@
     }
 
     .section__product-tagnew {
-        width: 86%;
+        width: 100%;
     }
 
     .section__product-content {
@@ -221,7 +221,6 @@
     }
 
     .container__franchise {
-        max-width: 384px;
     }
 
     .container__franchise-description {
@@ -240,5 +239,19 @@
 
     .footer__main-img {
         height: 207px;
+    }
+}
+
+@media (max-width: 320px) {
+    * {
+        max-width: 100%;
+    }
+    
+    .container__franchise {
+        max-width: 320px;
+    }
+
+    .container__franchise-description {
+        max-width: 246.5px !important;
     }
 }
